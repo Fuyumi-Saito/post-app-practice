@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="V1DDNeQ7M3pJTJPXj0Qk">
+    <mxGraphModel dx="1015" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cfikHdSGSTjFAibpX0pO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" value="投稿アプリ" vertex="1">
+          <mxGeometry height="570" width="340" x="150" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="訪問者&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ログイン済み利用者&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="590" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-10" edge="1" parent="1" source="cfikHdSGSTjFAibpX0pO-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ユーザー登録をする&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;ログインする&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="270" x="190" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;ログアウトする&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="180" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;投稿の一覧を見る&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="180" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;投稿を削除する&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="180" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;投稿を編集する&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="180" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-12" edge="1" parent="1" source="cfikHdSGSTjFAibpX0pO-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="180" />
+            </Array>
+            <mxPoint x="190" y="170" as="sourcePoint" />
+            <mxPoint x="110" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-13" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="cfikHdSGSTjFAibpX0pO-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="480" as="sourcePoint" />
+            <mxPoint x="530" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-19" edge="1" parent="1" source="cfikHdSGSTjFAibpX0pO-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="cfikHdSGSTjFAibpX0pO-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="480" as="sourcePoint" />
+            <mxPoint x="510" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-20" edge="1" parent="1" source="cfikHdSGSTjFAibpX0pO-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.977;entryY=0.354;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="cfikHdSGSTjFAibpX0pO-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="725" as="sourcePoint" />
+            <mxPoint x="520" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfikHdSGSTjFAibpX0pO-21" edge="1" parent="1" source="cfikHdSGSTjFAibpX0pO-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="cfikHdSGSTjFAibpX0pO-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="686" y="612" as="sourcePoint" />
+            <mxPoint x="550" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
